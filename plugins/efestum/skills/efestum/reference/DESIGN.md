@@ -1,6 +1,6 @@
 # DESIGN.md — EFESTUM visual system
 
-Fuente de verdad: `EFESTUM_MASTER_SKILL_v3 (1)/EFESTUM_MASTER_SKILL/SKILL.md`. Este archivo resume lo que Impeccable necesita para no inventar un sistema.
+Fuente de verdad: `reference/SISTEMA_DE_MARCA.md` de esta skill. Este archivo resume lo que Impeccable necesita para no inventar un sistema.
 
 ## Colors
 | Token | Hex | Uso |
@@ -23,16 +23,16 @@ Semánticos solo en contexto de estado: success #1C9D5B (fondo #E6F5EC), warning
 Reglas: rojo por debajo del 5 % del área; un solo elemento rojo dominante por zona; nunca #000 puro; sin gradientes; sin múltiples rojos.
 
 ## Typography
-- **Rubik** (Google Fonts, 300/400/500/700/900): todo el texto. Títulos de documento y cuerpo van en Rubik. Jerarquía por peso: 900 para display, 700 para títulos, 400 cuerpo, 500 labels.
-- **Efestum Display** (`TIPOGRAFIA EFESTUM/*.woff2`, 300/400/700): solo logotipo, rótulos cortos, lockups, señalética, migas de navegación. Caja alta por diseño. No usarla para títulos de documento ni cuerpo.
+- **Rubik** (Google Fonts, 300/400/500/600/700/900): todo lo que no es titular grande: subtítulos, cuerpo, UI, labels, cifras. Jerarquía por peso: 700 para títulos de sección, 400 cuerpo, 500 labels.
+- **Efestum Display** (`assets/fonts/*.woff2`, 300/400/700): titulares grandes (hero, display, portadas, títulos de diapositiva), afirmaciones y rótulos cortos. Caja alta por diseño. Nunca por debajo de 24 px, nunca en cuerpo, subtítulos, tablas ni UI. Nunca para escribir la palabra EFESTUM: el logotipo es un archivo.
 - Escala (base 1920×1080): display 104, h2 58, h3 26, cuerpo 22, pequeño 19, label 15, mínimo funcional 13.
 - **Escala del sitio web (`efestum-web`, revisada 7 sep 2026 para bajar el ruido visual).** Valores mínimo → máximo del `clamp`:
   hero 42 → 76 · display 34 → 56 · display largo 30 → 46 · display extralargo 26 → 38 · h2 24 → 32 · h3 19 → 22 · lead 17 → 20 · cuerpo **16 → 17** · label 13.
   El cuerpo **nunca baja de 16 px**: al reducir el máximo es fácil arrastrar el mínimo y dejar la lectura corta en móvil.
   Todos los escalones de Efestum Display quedan por encima del piso de 24 px, incluido el extralargo.
 - Ratio entre pasos ≥ 1.25. Interlineado cuerpo 1.45–1.5. Medida de lectura ≤ 65–75 caracteres.
-- Labels en caja alta con tracking +0.14 a +0.22 em, solo para etiquetas cortas. Cuerpo sin tracking.
-- Display tracking −0.02 em máximo.
+- Labels en caja alta, solo para etiquetas cortas. Tracking: **web e interfaz +0.14 a +0.22 em** (a 13 px, +30 % se desarma); **presentaciones e impresos +30 %** (Design System v1). Cuerpo sin tracking.
+- Display tracking −0.02 a −0.03 em en web; −3 % a −5 % en presentaciones según el tamaño (Design System v1).
 
 ## Shape and elevation
 - Radios: 12 px inputs y botones, 16 px tarjetas, 999 px pills. Nada por encima de 16 px en tarjetas.
@@ -55,11 +55,13 @@ Reglas: rojo por debajo del 5 % del área; un solo elemento rojo dominante por z
 - Tabla: cabecera en caja alta 13 px sobre mist, filas hairline, primera columna en 700.
 - Lista de trabajo: icono de línea 22 px + texto + pill de responsable, separadas por hairline.
 - Iconos: estilo Lucide, 24 px, trazo 2, puntas redondas, `currentColor`, en línea con el título. Nunca dentro de un cuadro de color encima del título. Nunca emoji.
-- Logo: usar SVG/PNG oficiales de `NUEVO LOGO EFESTUM/`. Negro en claro, blanco en oscuro. Horizontal prioritario; isotipo solo en avatar, favicon y hardware.
+- Logo: usar SVG oficiales de `assets/logos/svg/` (PNG en `assets/logos/png/` solo si la herramienta no lee vector). Negro en claro, blanco en oscuro. Horizontal prioritario; isotipo solo en avatar, favicon y hardware.
 
 ## Motion
-- Entradas: 200–240 ms, `cubic-bezier(.23,1,.32,1)`, subida 10 px + opacidad, escalonado 40 ms.
-- Hover: 120–160 ms. Sin rebote, sin elasticidad, sin rotaciones, sin marquesinas, sin puntos pulsantes.
+- Curva única: `cubic-bezier(.22,1,.36,1)`.
+- **Web:** entradas 300–460 ms, subida 10–14 px + opacidad, escalonado 45–60 ms. Hover 160 ms.
+- **Presentaciones y video:** valores del Design System v1 (300–700 ms). En ningún medio menos de 160 ms ni más de 800 ms.
+- Hover: Sin rebote, sin elasticidad, sin rotaciones, sin marquesinas, sin puntos pulsantes.
 - Solo transform y opacity. Respetar `prefers-reduced-motion` (dejar solo opacidad).
 - Hover gateado con `@media (hover:hover) and (pointer:fine)`.
 

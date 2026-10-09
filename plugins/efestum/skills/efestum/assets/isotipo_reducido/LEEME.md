@@ -27,7 +27,7 @@ porque la marca se ensancha un 3,9 %, no porque se haya adelgazado.
 
 ## Cuándo usar cuál
 
-- **Oficial** (`current_logo/svg/isotipo-negro.svg`): de 44 px y de 53 mm para arriba.
+- **Oficial** (`assets/logos/svg/isotipo-negro.svg`): de 44 px y de 53 mm para arriba.
 - **Reducido** (este folder): por debajo de eso. Favicon, app icon, bordado, grabado,
   sellos, troqueles, cualquier aplicación pequeña o de una sola tinta.
 

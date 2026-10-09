@@ -26,12 +26,11 @@ ancho de avance distinto, cmap y kerning idénticos.
 - **Nunca por debajo de 24 px** en digital. Los numerales van en Rubik.
 - Máximo dos tamaños display por superficie. Tracking ≈ −3 % cuando aplique.
 - **Nunca componer la palabra EFESTUM con esta fuente** dentro de un titular ni de un
-  lockup: el logotipo es el archivo de `current_logo/`, no texto tipografiado.
+  lockup: el logotipo es el archivo de `assets/logos/svg/`, no texto tipografiado.
 
 ## Licencia
 
 Propiedad de Inédito Digital. Licencia de uso concedida a Maindsoft. La cadena de
-licencia incrustada en los archivos dice literalmente *"para la marca Efestum
-Systems"*; si se decide retirar "Systems" del nombre legal, hay que recompilar los
-siete archivos de cada peso para que el metadato no contradiga a la marca.
+licencia incrustada en los archivos (v1.210) dice *"Licencia de uso concedida a
+Maindsoft para la marca EFESTUM"*, sin "Systems", igual que la marca.
 `fsType = 0` (instalable sin restricción).

@@ -35,11 +35,11 @@ Lo que un competidor no puede copiar: el proceso (diagnóstico de dos semanas co
 No hay casos, testimonios ni métricas validadas para publicar todavía. Cualquier cifra en mockups es plantilla ilustrativa y debe sustituirse por datos verificados antes de publicar. No usar logos de clientes sin permiso escrito.
 
 ## Brand commitments
-- Logo oficial en `NUEVO LOGO EFESTUM/` (SVG y PNG). Nunca redibujar, deformar, rotar ni agregar "SYSTEMS".
+- Logo oficial en `assets/logos/svg/` (PNG de respaldo en `assets/logos/png/`). Nunca redibujar, deformar, rotar ni agregar "SYSTEMS".
 - Rojo `#E60004` como señal, no como relleno: menos del 5 % de la superficie.
 - Fondo claro con Mármol Digital como base de redes e institucional. Fondos oscuros solo para textiles, objetos negros y mockups físicos.
 - Filo de Forja (línea horizontal roja) como firma visual.
 - Mitología: máximo 1 pieza de cada 4; solo panteón griego; esculturas de mármol con expresión serena, siempre usando un dispositivo real.
 
 ## Source of truth
-`EFESTUM_MASTER_SKILL_v3 (1)/EFESTUM_MASTER_SKILL/SKILL.md` y `DECISION_LOG.md`. La instrucción más reciente del usuario manda.
+`reference/SISTEMA_DE_MARCA.md` y `reference/DECISION_LOG.md` de esta skill. La instrucción más reciente del usuario manda.

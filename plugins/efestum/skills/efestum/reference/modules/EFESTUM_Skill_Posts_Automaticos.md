@@ -33,7 +33,7 @@ Crear posts 4:5 para redes sociales que comuniquen una sola idea por pieza. La c
 - Priorizar siempre el logo horizontal de EFESTUM.
 - Usar el archivo maestro proporcionado; no redibujar, deformar, rotar, comprimir ni reinterpretar.
 - Sobre fondo blanco usar versión negra.
-- No añadir “SYSTEMS” salvo que el archivo oficial utilizado lo incluya de origen.
+- Nunca añadir “SYSTEMS”, en ninguna forma: ni en el lockup, ni debajo, ni en el copy.
 - Mantener zona de seguridad alrededor del logo.
 
 ---

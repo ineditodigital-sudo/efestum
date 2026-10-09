@@ -313,7 +313,7 @@ Frases:
 - El poder central de tu operación
 - Escala sin perder control
 - Una arquitectura preparada para crecer
-- Gobierna tu ecosistema digital
+- Toda tu operación, bajo un mismo control
 - Visibilidad total para decisiones críticas
 - Controlar más sin complicar más
 
@@ -449,7 +449,7 @@ El nombre “Mármol Digital” describe el concepto, no una simulación literal
 
 ## 4.3 Uso del rojo
 
-**Rojo oficial:** `#E40800`
+**Rojo oficial:** `#E60004`
 
 El rojo representa conceptualmente la energía de la forja, pero nunca debe mostrarse literalmente como fuego.
 
@@ -543,7 +543,7 @@ Recursos prioritarios:
 
 ### Display
 
-**Hanson Bold**
+**Efestum Display** (propietaria, en `assets/fonts/`; nunca por debajo de 24 px)
 
 Uso:
 
@@ -554,7 +554,7 @@ Uso:
 
 ### Cuerpo
 
-**Inter**
+**Rubik**
 
 Uso:
 
@@ -679,7 +679,7 @@ Esto mantiene a Efestum dentro de su verdadera categoría:
 
 ## EL PAPEL DEL ROJO
 
-El rojo `#E40800` funciona como la energía contenida de la identidad.
+El rojo `#E60004` funciona como la energía contenida de la identidad.
 
 No es fuego literal.
 

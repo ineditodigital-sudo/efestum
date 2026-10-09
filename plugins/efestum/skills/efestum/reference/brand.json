@@ -76,6 +76,7 @@
     "display": "EFESTUM Display",
     "text": "Rubik",
     "label_tracking": "0.30em",
+    "label_tracking_web": "0.14em-0.22em",
     "display_min_px": 24,
     "display_never_for_wordmark": true,
     "files_dir": "assets/fonts/",

@@ -234,7 +234,7 @@ Archivos en `assets/fonts/`: **Light, Regular y Bold** en `.otf`, `.ttf`, `.woff
 
 - uppercase
 - Rubik
-- tracking aprox. +30 %
+- tracking +30 % en presentaciones e impresos; +0,14 a +0,22 em en web e interfaz
 - discretos
 - no competir con el titular
 
@@ -305,7 +305,7 @@ y al estirar cambian el paso de retícula y la densidad de puntos, que es lo que
 escala del sistema. El paso va referido al lado corto, así que un A4 y un banner 21:9
 tienen la misma densidad aparente.
 
-Parámetros: fondo `#F5F5F5`, retícula 5,66 % del lado corto, puntos 1,52 %, retícula
+Parámetros: fondo `#F5F5F5` (los PNG llevan este valor horneado; en CSS el Mármol usa Papel `#F4F4F4`, un nivel de diferencia imperceptible. Si un bloque de color sólido debe empatar exacto con un PNG, usar `#F5F5F5`), retícula 5,66 % del lado corto, puntos 1,52 %, retícula
 mayor cada 4 celdas, densidad radial con el centro limpio, contraste total dentro de
 ~20 niveles. **El fondo nunca compite con el contenido**: si la retícula se nota a
 primera vista, está mal.
@@ -370,7 +370,8 @@ Motion:
 - sin rebote
 - sin elasticidad
 - sin rotaciones decorativas
-- 200–800 ms
+- 200–800 ms en presentaciones y video; 160–460 ms en web (ver `DESIGN.md`)
+- curva `cubic-bezier(.22,1,.36,1)`
 - reveal de texto: subida leve + opacidad
 - reveal de imagen: escala sutil + opacidad
 - Filo: barrido horizontal

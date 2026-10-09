@@ -6,6 +6,8 @@ argument-hint: "[aplicar | revisar <ruta> | <qué vas a crear>]"
 
 # EFESTUM — skill de marca
 
+> Sistema de marca v3.1.0 · dominio **efestum.com**
+>
 > Cuando haya duda, EFESTUM debe sentirse como **una firma de ingeniería que sabe
 > exactamente lo que está construyendo**.
 
@@ -86,19 +88,22 @@ White   #FFFFFF   superficies, tarjetas
 Paper   #F4F4F4   fondo de página
 Mist    #EAEAEA   rellenos neutros, pills, cabeceras de tabla
 Muted   #8A8A8A   metadatos (no para cuerpo sobre paper; ahí #6B6B6B)
-Rule    #D8D8D8   hairlines en claro      Panel  #141414  superficie oscura ocasional
+Rule    #D8D8D8   hairlines en claro      Rule-dark #262626  hairlines en oscuro
+Panel   #141414   superficie oscura ocasional
 Accent  #E60004   único acento            Accent-ink #C40004  rojo para texto pequeño
 ```
 - **El rojo es señal, no relleno**: menos del 5 % del área. Un solo elemento rojo
   dominante por zona: Filo de Forja, una palabra, un dato o el CTA principal.
-- Sin gradientes, sin otros rojos, sin colores nuevos. Verde/ámbar solo para estados.
+- Sin gradientes, sin otros rojos (el antiguo `#E40800` ya no se usa), sin colores
+  nuevos. Verde/ámbar solo para estados.
 
 ### Tipografía
 - **Efestum Display** (`assets/fonts/`): solo titulares grandes y rótulos cortos, en
   caja alta, **nunca por debajo de 24 px**, tracking −0,02 a −0,03 em, máximo dos
   tamaños display por superficie.
 - **Rubik** (Google Fonts) para todo lo demás: cuerpo, subtítulos, UI, labels, cifras.
-- Labels: Rubik 500, caja alta, tracking +0,14 a +0,22 em. Cuerpo ≥ 16 px, interlineado
+- Labels: Rubik 500, caja alta. Tracking +0,14 a +0,22 em en web e interfaz;
+  +30 % en presentaciones e impresos. Cuerpo ≥ 16 px, interlineado
   1,45–1,55, medida ≤ 65–75 caracteres.
 
 ### Sistema visual
@@ -112,7 +117,8 @@ Accent  #E60004   único acento            Accent-ink #C40004  rojo para texto p
 - Radios: 12 px botones/inputs, 16 px tarjetas, 999 px pills. Hairlines de 1 px, sin
   sombras en tarjetas, sin cards anidadas, sin glassmorphism en contenido.
 - Iconos estilo Lucide, 24 px, trazo 2, `currentColor`. Nunca emoji.
-- Motion preciso: 160–460 ms, `cubic-bezier(.22,1,.36,1)`, solo transform y opacity,
+- Motion preciso: 160–460 ms en web, 300–700 ms en presentaciones y video (nunca
+  menos de 160 ni más de 800), curva `cubic-bezier(.22,1,.36,1)`, solo transform y opacity,
   sin rebote ni elasticidad, respetar `prefers-reduced-motion`.
 - Una idea por superficie. El vacío es material. Variar la composición entre piezas.
 - Prohibido: cyberpunk, neón, gradientes morados, robots humanoides, cerebros que
@@ -128,6 +134,7 @@ Accent  #E60004   único acento            Accent-ink #C40004  rojo para texto p
   transformación digital, sinergia, ecosistema, potenciar, impulsar, empoderar,
   "soluciones a la medida de tus necesidades", "estamos emocionados de",
   "¿sabías que…?", "en un mundo cada vez más digital".
+- Dominio y cierre de piezas: `efestum.com`.
 - El cliente es el sujeto; EFESTUM es el medio. Botones = verbos
   (`Agendar diagnóstico`, `Ver cómo trabajamos`).
 - **Cero datos inventados**: ni clientes, métricas, testimonios, porcentajes ni

@@ -70,7 +70,7 @@ generativo que lo invente."*
 Procedimiento, por pieza:
 
 1. Localizar el lockup y medir la **altura de caja del wordmark**.
-2. Escalar el SVG oficial `NUEVO LOGO EFESTUM NEGRO/BLANCO.svg` para que su wordmark
+2. Escalar el SVG oficial (`assets/logos/svg/logo-horizontal-negro.svg` / `-blanco.svg`) para que su wordmark
    mida exactamente esa altura. Las proporciones internas del lockup oficial son
    símbolo 20,17 % del ancho, hueco 3,21 %, wordmark 76,62 %, y símbolo y wordmark
    comparten altura.

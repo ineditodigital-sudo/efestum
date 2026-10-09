@@ -2,7 +2,9 @@
 
 ## Vigente
 - Nombre de trabajo: EFESTUM.
-- Logo actual: archivos `NUEVO LOGO EFESTUM ... (2)` + isotipos actuales.
+- Logo actual: SVG de `assets/logos/svg/` (horizontal, cuadrado e isotipo; negro, blanco y rojo).
+- Dominio: `efestum.com` (confirmado, 9 oct 2026).
+- La fuente Efestum Display v1.210 dice en su licencia “para la marca EFESTUM” (sin “Systems”), en todas sus copias.
 - Logo horizontal prioritario.
 - **La marca es EFESTUM, a secas** (5 oct 2026). No “SYSTEMS” en el lockup ni en
   ningún texto: metadatos, firma de correo, schema, perfiles. Antes la skill se

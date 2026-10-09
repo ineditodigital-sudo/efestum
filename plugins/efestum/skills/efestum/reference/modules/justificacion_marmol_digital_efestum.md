@@ -114,7 +114,7 @@ Convive con el sistema cromático oficial:
 
 - Negro forja `#0A0A0A`
 - Gris taller `#F4F4F4`
-- Rojo forja `#E40800`
+- Rojo forja `#E60004`
 - Blanco `#FFFFFF`
 
 El rojo debe permanecer como acento de decisión y continuidad; el Mármol Digital debe conservarse principalmente monocromático.
