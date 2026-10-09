@@ -1,0 +1,12 @@
+{
+  "name": "efestum",
+  "owner": { "name": "EFESTUM", "url": "https://github.com/ineditodigital-sudo/efestum" },
+  "metadata": { "description": "Sistema de marca EFESTUM para Claude Code." },
+  "plugins": [
+    {
+      "name": "efestum",
+      "source": "./plugins/efestum",
+      "description": "Reglas, voz, logotipos, tipografía, Mármol Digital, referencias y tokens CSS de la marca EFESTUM."
+    }
+  ]
+}

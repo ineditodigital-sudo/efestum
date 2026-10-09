@@ -1,0 +1,1 @@
+Adapt existing site architecture to EFESTUM: Digital Marble light, current logo, EFESTUM Display headlines, Rubik text, primary red CTA, one-line services, no generic AI robot/cyberpunk imagery.

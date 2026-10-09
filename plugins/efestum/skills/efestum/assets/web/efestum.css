@@ -1,0 +1,175 @@
+/* ==========================================================================
+   EFESTUM — hoja de marca portátil
+   Derivada de la hoja de producción del sitio (efestum.tokens.original.css).
+   Regla madre: ingeniería, no ornamento. Blanco/negro sostienen; el rojo significa.
+
+   Uso: copiar este archivo junto a una carpeta fonts/ con los .woff2 de
+   Efestum Display, y cargar Rubik desde Google Fonts o @fontsource-variable/rubik.
+   Las url() son relativas a este archivo.
+   ========================================================================== */
+
+/* ---------- Tipografía propietaria (solo titulares, nunca < 24px) ---------- */
+@font-face{font-family:"Efestum Display";src:url("fonts/EfestumDisplay-Light.woff2") format("woff2");font-weight:300;font-display:swap}
+@font-face{font-family:"Efestum Display";src:url("fonts/EfestumDisplay-Regular.woff2") format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Efestum Display";src:url("fonts/EfestumDisplay-Bold.woff2") format("woff2");font-weight:700;font-display:swap}
+
+:root{
+  /* Color — sin colores nuevos. Un solo acento, por debajo del 5 % del área. */
+  --ink:#0A0A0A;
+  --ink-700:#333333;        /* cuerpo de texto */
+  --ink-500:#6B6B6B;        /* texto secundario sobre paper: 4.85:1 */
+  --muted:#8A8A8A;          /* metadatos, reglas; no cuerpo sobre paper */
+  --white:#FFFFFF;
+  --paper:#F4F4F4;
+  --mist:#EAEAEA;
+  --rule:#D8D8D8;
+  --rule-dark:#2E2E2E;
+  --panel:#141414;
+  --accent:#E60004;
+  --accent-ink:#C40004;     /* rojo para texto pequeño: #E60004 solo pasa AA en grande */
+  --accent-soft:#FDECEC;
+  --success:#1C9D5B;--success-soft:#E6F5EC;   /* solo estados */
+  --warning:#D98A09;--warning-soft:#FBF1DF;
+
+  /* Tipografía */
+  --font-display:"Efestum Display","Rubik Variable","Rubik",system-ui,sans-serif;
+  --font-text:"Rubik Variable","Rubik","Segoe UI",system-ui,-apple-system,sans-serif;
+
+  /* Escala fluida. Pasos cerrados: no inventar tamaños intermedios. */
+  --fs-hero:clamp(2.625rem, 1.6rem + 3.4vw, 4.75rem);      /* Efestum Display */
+  --fs-display:clamp(2.125rem, 1.3rem + 2.7vw, 3.5rem);    /* Efestum Display */
+  --fs-h2:clamp(1.5rem, 1.15rem + 1.05vw, 2rem);           /* Rubik 700 */
+  --fs-h3:clamp(1.1875rem, 1.08rem + 0.45vw, 1.375rem);    /* Rubik 600 */
+  --fs-lead:clamp(1.0625rem, 0.98rem + 0.42vw, 1.25rem);   /* Rubik 300 */
+  --fs-body:clamp(1rem, 0.96rem + 0.18vw, 1.0625rem);      /* nunca < 16px */
+  --fs-small:0.9375rem;
+  --fs-label:0.8125rem;                                    /* mínimo funcional */
+
+  --lh-tight:1;--lh-display:1.04;--lh-heading:1.15;--lh-body:1.55;
+  --track-display:-0.03em;
+  --track-label:0.22em;
+
+  /* Espaciado — múltiplos de 20 */
+  --sp-1:20px;--sp-2:40px;--sp-3:60px;--sp-4:80px;--sp-5:100px;--sp-6:140px;--sp-7:180px;
+  --section:clamp(56px, 6.4vw, 112px);
+  --gutter:clamp(20px, 4.2vw, 80px);
+  --container:1680px;
+  --measure:64ch;
+
+  /* Forma */
+  --r-input:12px;--r-card:16px;--r-pill:999px;
+  --hair:1px solid var(--rule);
+
+  /* Motion — preciso y contenido. Nada rebota. */
+  --ease:cubic-bezier(.22,1,.36,1);
+  --t-fast:160ms;--t-base:300ms;--t-slow:460ms;
+
+  color-scheme:light;
+}
+
+/* ---------- Base ---------- */
+*,*::before,*::after{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:var(--font-text);
+  font-size:var(--fs-body);
+  line-height:var(--lh-body);
+  color:var(--ink);
+  background-color:var(--paper);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+::selection{background:var(--ink);color:var(--white)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* ---------- Mármol Digital: sistema de marca, no decoración. Apenas visible. ---------- */
+.marmol{
+  background-color:var(--paper);
+  background-image:
+    radial-gradient(rgba(10,10,10,.065) .9px, transparent 1.25px),
+    linear-gradient(rgba(10,10,10,.028) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(10,10,10,.028) 1px, transparent 1px);
+  background-size:20px 20px, 100px 100px, 100px 100px;
+}
+
+/* ---------- Tipografía ---------- */
+.t-hero,.t-display{
+  font-family:var(--font-display);
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:var(--track-display);
+  line-height:var(--lh-display);
+  text-wrap:balance;
+}
+.t-hero{font-size:var(--fs-hero);line-height:var(--lh-tight)}
+.t-display{font-size:var(--fs-display)}
+.t-display--long{font-size:clamp(1.875rem, 1.25rem + 2.1vw, 2.875rem)}
+.t-h2{font-family:var(--font-text);font-weight:700;font-size:var(--fs-h2);line-height:var(--lh-heading);letter-spacing:-.015em;text-wrap:balance}
+.t-h3{font-family:var(--font-text);font-weight:600;font-size:var(--fs-h3);line-height:1.25;text-wrap:balance}
+.t-lead{font-size:var(--fs-lead);line-height:1.45;font-weight:300;max-width:var(--measure);text-wrap:pretty}
+.t-body{font-size:var(--fs-body);color:var(--ink-700);max-width:var(--measure);text-wrap:pretty}
+.t-small{font-size:var(--fs-small);color:var(--ink-500)}
+.t-label{font-size:var(--fs-label);font-weight:500;letter-spacing:var(--track-label);text-transform:uppercase;color:var(--ink-500)}
+.t-num{font-variant-numeric:tabular-nums}
+.red{color:var(--accent)}
+.red-ink{color:var(--accent-ink)}
+
+/* ---------- Filo de Forja: la firma. Un trazo de ingeniería, no un adorno. ---------- */
+.filo{display:block;width:120px;height:4px;background:var(--accent);border-radius:2px}
+.filo--sec{width:100%;height:4px;border-radius:0}
+.filo--center{width:200px;height:6px;margin-inline:auto;border-radius:3px}
+
+/* ---------- Layout ---------- */
+.container{width:100%;max-width:var(--container);margin-inline:auto;padding-inline:var(--gutter)}
+.section{padding-block:var(--section)}
+.rows{border-top:var(--hair)}          /* filas con hairline: alternativa a la cuadrícula de tarjetas */
+.rows>*{border-bottom:var(--hair)}
+
+/* ---------- Componentes ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;padding:0 26px;border-radius:var(--r-input);
+  font-weight:500;font-size:var(--fs-body);line-height:1;
+  text-decoration:none;cursor:pointer;border:1px solid transparent;
+  transition:background-color var(--t-fast) ease,border-color var(--t-fast) ease,transform var(--t-fast) var(--ease),color var(--t-fast) ease;
+}
+.btn:active{transform:translateY(1px)}   /* sin scale-shrink */
+.btn--primary{background:var(--ink);color:var(--white);border-color:var(--ink)}   /* uno por vista */
+.btn--accent{background:var(--accent);color:var(--white);border-color:var(--accent)}  /* solo si el CTA es el dato más importante */
+.btn--ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
+.btn--link{min-height:0;padding:0;border:0;border-radius:0;background:none;color:var(--ink);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:.28em;text-decoration-color:var(--rule)}
+@media (hover:hover) and (pointer:fine){
+  .btn--primary:hover{background:#262626;border-color:#262626}
+  .btn--accent:hover{background:var(--accent-ink);border-color:var(--accent-ink)}
+  .btn--ghost:hover{background:var(--ink);color:var(--white)}
+  .btn--link:hover{text-decoration-color:var(--ink)}
+}
+
+.pill{display:inline-flex;align-items:center;gap:8px;font-size:var(--fs-label);font-weight:500;padding:6px 12px;border-radius:var(--r-pill);background:var(--mist);color:var(--ink);line-height:1.2}
+.pill--red{background:var(--accent-soft);color:var(--accent-ink)}
+.pill--ok{background:var(--success-soft);color:var(--success)}
+.pill--warn{background:var(--warning-soft);color:#8A5600}
+.pill--solid{background:var(--ink);color:var(--white)}
+
+.card{background:var(--white);border:var(--hair);border-radius:var(--r-card);padding:clamp(24px, 3vw, 40px)}
+
+.ic{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+/* Superficie oscura ocasional: panel plano, sin Mármol (el Mármol es solo claro). */
+.on-dark{background:var(--panel);color:var(--white)}
+.on-dark .t-body{color:#CFCFCF}
+.on-dark .t-small,.on-dark .t-label{color:#A8A8A8}
+.on-dark .rows,.on-dark .rows>*{border-color:var(--rule-dark)}
+.on-dark .btn--primary{background:var(--white);color:var(--ink);border-color:var(--white)}
+.on-dark .btn--ghost{color:var(--white);border-color:var(--white)}
+
+/* ---------- Entrada al viewport: subida leve + opacidad ---------- */
+@media (prefers-reduced-motion:no-preference){
+  .rv{opacity:0;transform:translateY(14px);transition:opacity var(--t-slow) var(--ease),transform var(--t-slow) var(--ease)}
+  .rv.in{opacity:1;transform:none}
+  .filo.rv{opacity:1;transform:scaleX(0);transform-origin:left}
+  .filo.rv.in{transform:scaleX(1)}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
+}

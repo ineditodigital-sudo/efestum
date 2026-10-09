@@ -1,0 +1,284 @@
+{
+  "name": "EFESTUM Master Brand Skill",
+  "version": "3.1.0",
+  "language": "es-MX",
+  "updated": "2026-10-05",
+  "precedence": [
+    "latest_user_instruction",
+    "assets/current_logo",
+    "SKILL.md",
+    "design_system_v1",
+    "copy_bank_v1_1",
+    "modules",
+    "archive"
+  ],
+  "brand": {
+    "company_origin": "Maindsoft",
+    "brand": "EFESTUM",
+    "location": "Aguascalientes, México",
+    "core_claim": "FORJAMOS SISTEMAS INTELIGENTES",
+    "positioning": "ingeniería de software e inteligencia artificial; mitología como capa selectiva, no tema principal"
+  },
+  "logo": {
+    "preferred": "horizontal",
+    "append_systems": false,
+    "redraw": false,
+    "distort": false,
+    "prefer_vector": true,
+    "current_assets_svg": [
+      "assets/logos/svg/logo-horizontal-negro.svg",
+      "assets/logos/svg/logo-horizontal-blanco.svg",
+      "assets/logos/svg/logo-horizontal-rojo.svg",
+      "assets/logos/svg/logo-cuadrado-negro.svg",
+      "assets/logos/svg/logo-cuadrado-blanco.svg",
+      "assets/logos/svg/logo-cuadrado-rojo.svg",
+      "assets/logos/svg/isotipo-negro.svg",
+      "assets/logos/svg/isotipo-blanco.svg",
+      "assets/logos/svg/isotipo-rojo.svg"
+    ],
+    "current_assets_png_dir": "assets/logos/png/",
+    "lockup_proportions": {
+      "symbol_width": 0.2017,
+      "gap": 0.0321,
+      "wordmark_width": 0.7662,
+      "height": 0.1046,
+      "note": "fraccion del ancho total; simbolo y wordmark comparten altura"
+    },
+    "isotipo_allowed": [
+      "avatar",
+      "favicon",
+      "device_branding",
+      "compact_seal",
+      "explicit_icon_only_application"
+    ],
+    "isotipo_reduced": {
+      "dir": "assets/isotipo_reducido/",
+      "why": "la costura central del isotipo oficial mide 2.30% del ancho y se cierra al reducir",
+      "seam_official": 0.023,
+      "seam_reduced": 0.06,
+      "min_stroke_reduced": 0.046,
+      "geometry_unchanged": true,
+      "min_size": {
+        "screen_px": 17,
+        "embroidery_mm": 33,
+        "laser_mm": 9,
+        "rotary_mm": 18
+      },
+      "min_size_official": {
+        "screen_px": 44,
+        "embroidery_mm": 53,
+        "laser_mm": 13,
+        "rotary_mm": 35
+      }
+    }
+  },
+  "typography": {
+    "display": "EFESTUM Display",
+    "text": "Rubik",
+    "label_tracking": "0.30em",
+    "display_min_px": 24,
+    "display_never_for_wordmark": true,
+    "files_dir": "assets/fonts/",
+    "weights": [
+      "Light",
+      "Regular",
+      "Bold"
+    ],
+    "formats": {
+      "web": "woff2",
+      "web_fallback": "woff",
+      "desktop": "ttf",
+      "print_adobe": "otf"
+    },
+    "glyphs": 171,
+    "cmap": 136
+  },
+  "colors": {
+    "ink": "#0A0A0A",
+    "white": "#FFFFFF",
+    "paper": "#F4F4F4",
+    "accent": "#E60004",
+    "muted": "#8A8A8A",
+    "ruleLight": "#D8D8D8",
+    "ruleDark": "#262626",
+    "panel": "#141414",
+    "max_red_ratio": 0.05
+  },
+  "digital_marble": {
+    "dir": "assets/marmol/",
+    "masters": [
+      "marmol-1x1.png",
+      "marmol-4x5.png",
+      "marmol-9x16.png",
+      "marmol-3x4.png",
+      "marmol-16x9.png",
+      "marmol-21x9.png",
+      "marmol-A4-vertical.png",
+      "marmol-A4-horizontal.png"
+    ],
+    "generated_not_stretched": true,
+    "params": {
+      "background": "#F5F5F5",
+      "grid_pitch_short_side": 0.0566,
+      "dot_pitch_short_side": 0.0152,
+      "major_grid_every": 4,
+      "density": "radial, centro limpio",
+      "contrast_levels": 20
+    },
+    "legacy_names_are_crossed": {
+      "MARMOL RECTANGULAR.png": "en realidad vertical 3:4 (1086x1448)",
+      "MARMOL VERTICAL.png": "en realidad horizontal 16:9 (1672x941)"
+    }
+  },
+  "deities": {
+    "max_feed_ratio": 0.25,
+    "material": "white_museum_marble",
+    "expression": [
+      "divine",
+      "serene",
+      "controlled",
+      "subtly_satisfied"
+    ],
+    "forbidden_expression": [
+      "broad_smile",
+      "cheerful",
+      "angry",
+      "evil"
+    ],
+    "must_use_modern_device": true,
+    "map": {
+      "Zeus": [
+        "control",
+        "mando",
+        "decisiones"
+      ],
+      "Poseidon": [
+        "data",
+        "flujos",
+        "integración"
+      ],
+      "Athena": [
+        "IA",
+        "estrategia",
+        "arquitectura"
+      ],
+      "Hermes": [
+        "APIs",
+        "conectividad",
+        "velocidad"
+      ],
+      "Hades": [
+        "backend",
+        "infraestructura",
+        "ciberseguridad"
+      ],
+      "Apollo": [
+        "analytics",
+        "BI",
+        "observabilidad"
+      ],
+      "Ares": [
+        "automatización",
+        "eficiencia"
+      ],
+      "Hephaestus": [
+        "construcción de software"
+      ]
+    }
+  },
+  "devices": {
+    "realistic": true,
+    "brand_with_isotipo": true,
+    "materials": [
+      "aluminum",
+      "glass",
+      "matte_polycarbonate",
+      "anodized_metal"
+    ]
+  },
+  "copy": {
+    "headline_max_words_recommended": 8,
+    "no_exclamation": true,
+    "client_as_subject": true,
+    "no_unverified_metrics": true,
+    "preferred_verbs": [
+      "forjar",
+      "construir",
+      "diseñar",
+      "integrar",
+      "automatizar",
+      "escalar",
+      "conectar",
+      "ordenar",
+      "medir",
+      "operar",
+      "decidir",
+      "monitorear"
+    ],
+    "blacklist": [
+      "líder",
+      "innovador",
+      "disruptivo",
+      "de vanguardia",
+      "de última generación",
+      "revolucionar",
+      "transformación digital",
+      "sinergia",
+      "ecosistema",
+      "potenciar",
+      "empoderar",
+      "¿sabías que…?"
+    ]
+  },
+  "channels": {
+    "instagram": {
+      "image_dominates": true,
+      "body_emojis": false,
+      "max_hashtags": 3,
+      "light_marble_default": true,
+      "mythology_max_one_in_four": true
+    },
+    "facebook": {
+      "local_focus": [
+        "Aguascalientes",
+        "Bajío"
+      ],
+      "vacancy_salary_required": true,
+      "no_exclamation": true
+    },
+    "website": {
+      "hero_asserts": true,
+      "buttons_are_verbs": true,
+      "service_one_line": true,
+      "form_max_fields": 3,
+      "primary_cta": "Agendar diagnóstico"
+    }
+  },
+  "institutional": {
+    "current_preference": "light_digital_marble",
+    "textiles": "black_fabric_white_logo"
+  },
+  "quality_checks": [
+    "current_logo_exact",
+    "no_SYSTEMS",
+    "red_under_5_percent",
+    "display_and_rubik",
+    "digital_marble",
+    "one_idea",
+    "semantic_visual_match",
+    "varied_composition",
+    "no_invented_data"
+  ],
+  "references": {
+    "current": "assets/referencias/",
+    "rejected": "reference/REFERENCIAS_RETIRADAS.md",
+    "audited": "2026-10-05",
+    "rejection_reasons": [
+      "systems",
+      "wordmark",
+      "ingles",
+      "simbolo"
+    ],
+    "note": "reference/REFERENCIAS_RETIRADAS.md no se usa como referencia; el motivo de cada pieza esta en su LEEME.md"
+  }
+}
