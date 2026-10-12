@@ -144,7 +144,11 @@ Los PNG antiguos rasterizados a 2048 px (`NUEVO LOGO EFESTUM … (2).png`,
 
 ### Submarca EFESTUM Connect
 
-Lockup oficial de la línea **EFESTUM Connect**: el logotipo horizontal de EFESTUM,
+**EFESTUM Connect** es la línea de hardware (control de acceso, cómputo, redes,
+energía; venta por cotización) en https://connect.efestum.com. Qué es, cuándo usarla
+y su voz: `reference/CONNECT.md`.
+
+Su lockup oficial es el logotipo horizontal de EFESTUM,
 sin ningún cambio, más un separador vertical y la palabra CONNECT. Verificado contra
 el vector oficial: la parte EFESTUM es idéntica (diferencia de 0,0015 % de píxeles,
 solo antialias).

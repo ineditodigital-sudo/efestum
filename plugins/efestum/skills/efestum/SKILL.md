@@ -54,6 +54,7 @@ Lee **siempre** §3 (está aquí). Después, solo lo que la tarea necesite:
 | Mármol Digital (por qué y cómo) | `assets/marmol/LEEME.md`, `reference/modules/justificacion_marmol_digital_efestum.md` |
 | Favicon, bordado, grabado, tamaños mínimos | `assets/isotipo_reducido/LEEME.md` |
 | Contexto de negocio, audiencia, posicionamiento | `reference/PRODUCT.md` |
+| EFESTUM Connect (hardware, catálogo, cotizaciones) | `reference/CONNECT.md` |
 | Qué NO imitar | `reference/REFERENCIAS_RETIRADAS.md` |
 | Datos estructurados del sistema | `reference/brand.json` |
 
@@ -78,11 +79,12 @@ archivos de `assets/logos/` (el SVG manda sobre el PNG) → `SISTEMA_DE_MARCA.md
   el horizontal no cabe. Rojo solo si el logo es el único elemento y no hay otro rojo.
 - Isotipo solo (`isotipo-*.svg`) en avatar, favicon, hardware y sellos; mínimo 44 px.
   Por debajo, `assets/isotipo_reducido/` (favicon ya generado en `favicon/`).
-- **Submarca EFESTUM Connect**: `assets/logos/connect/svg/logo-connect-{negro,blanco,rojo}.svg`.
-  Solo para piezas de la línea Connect. Es un archivo: nunca escribir "CONNECT" junto
+- **Submarca EFESTUM Connect** (línea de hardware, connect.efestum.com):
+  `assets/logos/connect/svg/logo-connect-{negro,blanco,rojo}.svg`. Solo para piezas
+  sobre equipo, catálogo, cotización o entrega; un solo logotipo por pieza. Es un archivo: nunca escribir "CONNECT" junto
   al logo con una fuente ni inventar otras submarcas con ese esquema. Mínimo 280 px
   de ancho (70 mm impreso); por debajo va el logo de EFESTUM. Sin isotipo propio.
-  Detalle en §5.1 de `reference/SISTEMA_DE_MARCA.md`.
+  Qué es, cuándo usarla y su voz: `reference/CONNECT.md`.
 - En mockups o imágenes generadas, **componer el SVG oficial encima**; nunca pedir a
   un modelo generativo que dibuje el logotipo.
 
