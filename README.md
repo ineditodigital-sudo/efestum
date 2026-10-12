@@ -57,6 +57,7 @@ plugins/efestum/
                                        design system, banco de copys, sistema verbal,
                                        canales, sitio web, módulos de dioses, prompts
     assets/logos/                      logotipo oficial SVG y PNG
+    assets/logos/connect/              submarca EFESTUM Connect, SVG y PNG
     assets/isotipo_reducido/           favicon, bordado y grabado
     assets/fonts/                      Efestum Display (woff2, woff, ttf, otf)
     assets/marmol/                     fondos Mármol Digital por proporción

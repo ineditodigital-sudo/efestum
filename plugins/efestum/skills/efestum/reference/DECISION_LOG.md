@@ -6,6 +6,8 @@
 - Dominio: `efestum.com` (confirmado, 9 oct 2026).
 - La fuente Efestum Display v1.210 dice en su licencia “para la marca EFESTUM” (sin “Systems”), en todas sus copias.
 - Logo horizontal prioritario.
+- Submarca **EFESTUM Connect** (12 oct 2026): lockup oficial en `assets/logos/connect/`.
+  Solo para la línea Connect; no autoriza inventar otras submarcas.
 - **La marca es EFESTUM, a secas** (5 oct 2026). No “SYSTEMS” en el lockup ni en
   ningún texto: metadatos, firma de correo, schema, perfiles. Antes la skill se
   contradecía: §21 pedía `Efestum Systems` en los `<title>` y el manual verbal

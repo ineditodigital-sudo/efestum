@@ -142,6 +142,30 @@ formatos donde el horizontal no cabe, nunca por gusto compositivo.
 Los PNG antiguos rasterizados a 2048 px (`NUEVO LOGO EFESTUM … (2).png`,
 `ISOTIPO EFESTUM … .png`) no se incluyen en esta skill. **Para trabajo nuevo va el SVG**.
 
+### Submarca EFESTUM Connect
+
+Lockup oficial de la línea **EFESTUM Connect**: el logotipo horizontal de EFESTUM,
+sin ningún cambio, más un separador vertical y la palabra CONNECT. Verificado contra
+el vector oficial: la parte EFESTUM es idéntica (diferencia de 0,0015 % de píxeles,
+solo antialias).
+
+```
+assets/logos/connect/svg/logo-connect-{negro,blanco,rojo}.svg
+assets/logos/connect/png/logo-connect-{negro,blanco,rojo}.png    8408×640
+```
+
+- Se usa solo en piezas de la línea Connect. Para todo lo demás va el logotipo de EFESTUM.
+- Es un archivo, igual que el logotipo: no escribir "CONNECT" con una fuente junto al
+  logo, no mover el separador, no cambiar el espacio entre las partes.
+- No inventar otras submarcas con el mismo esquema (EFESTUM | otra palabra) sin un
+  archivo oficial. Esto no abre la puerta a "SYSTEMS".
+- Color igual que el logotipo: negro en claro, blanco en oscuro, rojo solo si es el
+  único elemento rojo de la pieza.
+- Tamaño mínimo: **280 px de ancho en pantalla, 70 mm en impresión**. CONNECT mide
+  28,6 % de la altura del lockup; por debajo de eso deja de leerse y va el logotipo
+  de EFESTUM o el isotipo.
+- Connect no tiene isotipo propio: en avatar, favicon y hardware va el isotipo de EFESTUM.
+
 ### Reglas
 - Priorizar **logo horizontal**.
 - No redibujarlo.

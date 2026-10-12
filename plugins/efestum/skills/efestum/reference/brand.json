@@ -70,6 +70,27 @@
         "laser_mm": 13,
         "rotary_mm": 35
       }
+    },
+    "sub_brands": {
+      "connect": {
+        "name": "EFESTUM Connect",
+        "added": "2026-10-12",
+        "svg": [
+          "assets/logos/connect/svg/logo-connect-negro.svg",
+          "assets/logos/connect/svg/logo-connect-blanco.svg",
+          "assets/logos/connect/svg/logo-connect-rojo.svg"
+        ],
+        "png_dir": "assets/logos/connect/png/",
+        "size_px": [
+          8408,
+          640
+        ],
+        "connect_cap_height_ratio": 0.286,
+        "min_width_px": 280,
+        "min_width_mm": 70,
+        "use": "solo piezas de la linea Connect",
+        "own_isotype": false
+      }
     }
   },
   "typography": {

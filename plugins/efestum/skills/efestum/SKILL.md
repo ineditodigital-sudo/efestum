@@ -78,6 +78,11 @@ archivos de `assets/logos/` (el SVG manda sobre el PNG) → `SISTEMA_DE_MARCA.md
   el horizontal no cabe. Rojo solo si el logo es el único elemento y no hay otro rojo.
 - Isotipo solo (`isotipo-*.svg`) en avatar, favicon, hardware y sellos; mínimo 44 px.
   Por debajo, `assets/isotipo_reducido/` (favicon ya generado en `favicon/`).
+- **Submarca EFESTUM Connect**: `assets/logos/connect/svg/logo-connect-{negro,blanco,rojo}.svg`.
+  Solo para piezas de la línea Connect. Es un archivo: nunca escribir "CONNECT" junto
+  al logo con una fuente ni inventar otras submarcas con ese esquema. Mínimo 280 px
+  de ancho (70 mm impreso); por debajo va el logo de EFESTUM. Sin isotipo propio.
+  Detalle en §5.1 de `reference/SISTEMA_DE_MARCA.md`.
 - En mockups o imágenes generadas, **componer el SVG oficial encima**; nunca pedir a
   un modelo generativo que dibuje el logotipo.
 
@@ -159,6 +164,7 @@ la skill.
    `assets/`…). Si no hay ninguna, usa `brand/` en la raíz.
 2. **Copia** desde la skill a `<estáticos>/brand/` (no sobrescribas sin mirar):
    - `assets/logos/svg/*` → `brand/logos/`
+   - si el proyecto es de la línea Connect: `assets/logos/connect/svg/*` → `brand/logos/connect/`
    - `assets/fonts/*.woff2` → `brand/fonts/` (si es web; `.ttf`/`.otf` si es escritorio/impresión)
    - `assets/isotipo_reducido/favicon/*` → `brand/favicon/` y enlázalo en el `<head>`
    - `assets/web/efestum.css` → `brand/efestum.css` (ajusta las `url()` de `@font-face`
