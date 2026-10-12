@@ -134,6 +134,8 @@ assets/logos/svg/isotipo-{negro,blanco,rojo}.svg
 assets/logos/png/…                                          mismos, en PNG
 ```
 
+Los logotipos negros están en **Ink `#0A0A0A`**, igual que el texto: nunca negro puro.
+
 Las versiones **roja y cuadrada sí existen** y son oficiales. La roja se usa solo
 cuando el logotipo es el único elemento de la pieza y no hay otro rojo en la
 superficie: el tope de 5 % de §7 sigue aplicando. La cuadrada es para avatares y

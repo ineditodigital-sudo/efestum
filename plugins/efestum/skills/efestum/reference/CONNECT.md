@@ -33,6 +33,8 @@ de inmediato; el resto tarda lo que indica cada ficha.
 
 ## Cuándo usar Connect y cuándo EFESTUM
 
+Confirmado el 12 oct 2026.
+
 - La pieza habla de **equipo, catálogo, cotización, existencias o entrega** →
   logotipo Connect (`assets/logos/connect/`) y el sitio connect.efestum.com.
 - La pieza habla de **software, IA, integración, automatización o proyectos** →
@@ -59,7 +61,7 @@ El sitio de Connect ya usa el sistema de EFESTUM: Ink `#0A0A0A`, Papel `#F4F4F4`
 acento `#E60004`, Rubik + Efestum Display, Filo de Forja y la curva
 `cubic-bezier(.22,1,.36,1)`. Todo lo de `SKILL.md` §3 aplica igual.
 
-Lo propio de Connect:
+Lo propio de Connect (reglas confirmadas el 12 oct 2026):
 - Fotografía de producto del fabricante sobre fondo neutro y limpio. Es el único caso
   donde la imagen de stock del producto está permitida; recortar y dejar aire.
 - Botón de WhatsApp con su verde oficial (`#25D366`) solo dentro del botón de

@@ -9,6 +9,12 @@
 - Submarca **EFESTUM Connect** (12 oct 2026): lockup oficial en `assets/logos/connect/`.
   Solo para la línea Connect (hardware, connect.efestum.com); no autoriza inventar
   otras submarcas. Un solo logotipo por pieza: Connect o EFESTUM, no ambos.
+- Reglas de Connect **confirmadas** (12 oct 2026): un solo logotipo por pieza; fotografía
+  de producto del fabricante permitida; retícula de tarjetas iguales permitida solo en
+  catálogo; verde de WhatsApp `#25D366` solo dentro de su botón, fuera de la paleta.
+- Los logotipos negros usan **Ink `#0A0A0A`**, no negro puro (12 oct 2026). Convertidos
+  SVG, PNG y favicon. Excepción: el bitmap de 1 bit para bordado y grabado sigue en
+  negro/blanco puros, porque es un archivo de producción de dos tonos.
 - **La marca es EFESTUM, a secas** (5 oct 2026). No “SYSTEMS” en el lockup ni en
   ningún texto: metadatos, firma de correo, schema, perfiles. Antes la skill se
   contradecía: §21 pedía `Efestum Systems` en los `<title>` y el manual verbal
